@@ -32,8 +32,8 @@
 
       <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
@@ -47,8 +47,8 @@
 </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
-        <button type="button" class="btn btn-primary" id="gbttn" data-dismiss="modal">GO! GO! GO!</button>
+        <button type="button" class="btn btn-secondary.click" data-dismiss="modal">CANCEL</button>
+        <button type="button" class="btn btn-primary.unclick" id="gbttn" onclick="alert" ("press") data-dismiss="modal">GO! GO! GO!</button>
       </div>
     </div>
   </div>
@@ -56,3 +56,7 @@
 </center>
 </body>
 </html>
+<!-- this is a comment
+
+localStorage
+Storage (test_password:"tinuel0220", test_email:"kristineviray20900@gmail.com"
