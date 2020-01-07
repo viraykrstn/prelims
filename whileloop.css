@@ -1,0 +1,25 @@
+input[type=button] {
+height: 50px;
+width: 200px;
+color: gray;
+border-radius : 15px;
+font-family: serif;
+font-size: x-large;
+font-weight: bold;
+
+}
+
+input[type=button]:active {
+background-color: gray;
+color: white;
+}
+
+.triangle {
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid blue;
+display: inline-block;
+}
+
